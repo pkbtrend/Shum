@@ -7,7 +7,7 @@ if param < 10000:
 
 print("Prime numbers to natural numbers ratio in range from 1 to", param)
 
-# range which includes also the latest member
+# range which includes also last member
 def inclusive_range(start, end, step):
     return range(start, end+1, step)
 
